@@ -141,3 +141,99 @@ ul:not(.grid-navbar),ol {
         display: none;
     }
 }
+
+@media screen and (min-width: 750px) {
+
+    /* index.html */
+    .indexone, .indextwo {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+
+    .indexone {
+        margin-left: 5%;
+        margin-right: 2.5%;
+    }
+
+    .indextwo {
+        margin-right: 5%;
+        margin-left: 2.5%;
+    }
+
+    /* pets.html, recipes.html */
+    
+    .pets, .recipes {
+        display: inline-block;
+        width: 28%;
+        vertical-align: top;
+    }
+
+    .pets:nth-child(1), .recipes:nth-child(1) {
+        margin-left: 4%;
+        margin-right: 1%;
+    }
+
+    .pets:nth-child(2), .recipes:nth-child(2) {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .pets:nth-child(3), .recipes:nth-child(3) {
+        margin-left: 1%;
+        margin-right: 3%;
+    }
+
+    .grid-recipesgallery > img {
+        width: 80%;
+    }
+
+    /* travel.html */
+
+    .travel {
+        display: inline-block;
+        width: 41%;
+        vertical-align: top;
+    }
+
+    .travel:nth-child(1), .travel:nth-child(3) {
+        margin-left: 5%;
+        margin-right: 2.5%;
+    }
+
+    .travel:nth-child(2), .travel:nth-child(4) {
+        margin-left: 2.5%;
+        margin-right: 5%;
+    }
+
+    .travel:nth-child(5) {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+}
+
+/* Other tablet view changes */
+
+.grid-navbar {
+    position: fixed;
+    top: 0;
+    width: 95%;
+    margin-left: 1%;
+
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+.skip-to-main:focus {
+    position: relative;
+    top: 30px;
+    left: 40%;
+    right: 40%;
+    width: 20%;
+    top: 55px;
+    background-color: #FFFFFF;
+    color: #00274C;
+}
